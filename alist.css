@@ -6,23 +6,10 @@ Koyuki
 */
 
 body{
-	background-image:url('https://meme.9990326.xyz/bamboo_forest.jpg');//将此处替换为你自己的背景图api地址
+	background-image:url('http://api.hancat.work/cloud/api.php');//将此处替换为你自己的背景图api地址
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
-    position: relative;
-}
-
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* 黑色遮罩，透明度 0.5 */
-    z-index: 1;
-    pointer-events: none; /* 使遮罩不可点击 */
 }
 
 	@keyframes gradientBG {
